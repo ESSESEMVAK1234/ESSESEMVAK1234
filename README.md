@@ -1,6 +1,6 @@
 $ pkg install -y git python
 
-$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git
+$ git clone https://github.com/ESSESEMVAK1234/TeleGram-Scraper.git
 
 $ cd TeleGram-Scraper
 
