@@ -1,10 +1,21 @@
-- 👋 Hi, I’m @ESSESEMVAK1234
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+$ pkg install -y git python
 
-<!---
-ESSESEMVAK1234/ESSESEMVAK1234 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git
+
+$ cd TeleGram-Scraper
+
+Install requierments
+$ python3 setup.py -i
+
+setup configration file ( apiID, apiHASH )
+$ python3 setup.py -c
+
+To Genrate User Data
+$ python3 scraper.py
+
+( members.csv is default if you changed name use it )
+Send Bulk sms To Collected Data
+$ python3 smsbot.py members.csv
+
+Update Tool
+$ python3 setup.py -u
